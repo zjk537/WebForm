@@ -1,0 +1,110 @@
+/* CSS Document */
+#edit{ width:949px; margin:auto; height:100%; height:auto;background:url("first_top.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/first_top.jpg*/ no-repeat top #f3f3f3;}
+#edit_ed{ width:949px; margin:auto; min-height:1200px; background:url("first_top.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/first_top.jpg*/ no-repeat top #f3f3f3; height:auto}
+.edit_title{ color:#FFFFFF; padding-left:51px; padding-top:5px; font-size:16px; font-family:Microsoft YaHei, LiHei Pro;}
+.edit_bot{ width:949px; margin:auto; clear:both; }
+.edit_content{width:949px; margin:auto; height:100%; background:url("first_top.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/first_top.jpg*/ no-repeat top #f3f3f3;}
+.edit_content_nei{  height:auto; width:880px; margin:auto; font-size:14px; margin-top:50px; font-family:Microsoft YaHei, LiHei Pro; }
+.cont{ clear:both; width:100%; height:600px;}
+.list_ul{ float:left; margin:25px 0px 30px 75px;}
+.list_ul li{ float:left; cursor:pointer; width:100px; height:24px; line-height:24px; background:#e6e6e6; margin-left:13px; text-align:center; font-size:14px; font-family:Microsoft YaHei, LiHei Pro;}
+.div_content{height:auto; background-color:#f3f3f3;width:100%;}
+
+/*************************************************product*****************************************/
+#pro_1{width:949px; height:auto; clear:both; background-color:#f3f3f3;}
+.product{ height:auto; background-color:#f3f3f3;width:100%;}
+.product li{ float:left; margin-top:10px; width:212px; height:212px; text-align:center; background:url("product_bg.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/product_bg.jpg*/ no-repeat; margin-left:12px;}
+.product li:hover{background:#FFFFFF;border:1px solid #3166aa; width:210px; height:210px;}
+.product li a img{ margin-top:15px;}
+
+
+#pro_2{ width:auto; height:auto; clear:both; display:none}
+
+.product{ clear:both; margin-left:20px;}
+.product li{ float:left; margin-top:10px; width:212px; height:212px; text-align:center; background:url("product_bg.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/product_bg.jpg*/ no-repeat; margin-left:12px;}
+.product li:hover{background:#FFFFFF;border:1px solid #3166aa; width:210px; height:210px;}
+.product li a img{ margin-top:15px;}
+
+
+#pro_3{ width:auto; height:auto;clear:both;  display:none}
+.product{ clear:both; margin-left:20px;}
+.product li{ float:left; margin-top:10px; width:212px; height:212px; text-align:center; background:url("product_bg.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/product_bg.jpg*/ no-repeat; margin-left:12px;}
+.product li:hover{background:#FFFFFF;border:1px solid #3166aa; width:210px; height:210px;}
+.product li a img{ margin-top:15px;}
+
+
+#pro_4{ width:auto; height:auto;clear:both;  display:none}
+.product{ clear:both; margin-left:20px;}
+.product li{ float:left; margin-top:10px; width:212px; height:212px; text-align:center; background:url("product_bg.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/product_bg.jpg*/ no-repeat; margin-left:12px;}
+.product li:hover{background:#FFFFFF;border:1px solid #3166aa; width:210px; height:210px;}
+.product li a img{ margin-top:15px;}
+
+
+#pro_5{ width:auto; height:472px;clear:both; display:none}
+.product{ clear:both; margin-left:20px;}
+.product li{ float:left; margin-top:10px; width:212px; height:212px; text-align:center; background:url("product_bg.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/product_bg.jpg*/ no-repeat; margin-left:12px;}
+.product li:hover{background:#FFFFFF;border:1px solid #3166aa; width:210px; height:210px;}
+.product li a img{ margin-top:15px;}
+
+
+/******************************************login**********************************/
+#login{ width:440px; height:253px; background:url("tang.png")/*tpa=http://www.zibolan.com/Templates/zbl/image/tang.png*/ no-repeat; font-family:Microsoft YaHei, LiHei Pro; display:none }
+#x{text-align:right; padding-top:8px; padding-right:8px;}
+#x img{cursor:pointer;}
+#log{ color:#666666; padding-left:28px; font-size:21px; font-family:Microsoft YaHei, LiHei Pro;}
+#log span{ color:#4070b2; font-weight:normal; font-size:18px;}
+#login_ul li{ background:url("suo.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/suo.jpg*/ no-repeat; width:275px; height:45px; margin-top:15px; margin-left:15px;}
+#login_ul li input{ margin:4px 0px 0px 40px; *margin:4px 0px 0px 20px; width:195px; height:20px; padding-top:3px; border:0px; color:#cccccc; font-size:14px; font-family:Microsoft YaHei, LiHei Pro;}
+#login_ul li:first-child{ background:url("tali.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/tali.jpg*/ no-repeat; width:275px;  height:45px; margin-left:0px;}
+#login_ul li:first-child input{ margin:10px 0px 0px 50px; width:195px; height:20px; padding-top:3px; border:0px; color:#cccccc; font-size:14px; font-family:Microsoft YaHei, LiHei Pro;}
+#jizhu{ width:280px;}
+#jizhu_left{ width:85px; float:left; margin-left:10px;}
+#jizhu_left input{ vertical-align:middle; color:#666666}
+#jizhu a{ display:block; width:65px; text-align:center; float:right;}
+#denglu{ clear:both; display:block; width:60px; height:27px; text-align:center; line-height:27px; font-size:14px; margin:30px 0px 0px 15px; *margin:10px 0px 0px 15px; background:#3166aa; color:#FFFFFF;}
+/****************************************login end**********************************/
+
+
+
+/************************************************联系我们************************************/
+.contact{ width:874px; height:auto;margin-left:40px; margin-top:60px;}
+.contact_logo{ width:206px; height:75px; float:left; margin-top:20px;}
+.contact_zi{ float:left; width:630px; height:auto; margin-left:36px; line-height:25px; font-family:Microsoft YaHei, LiHei Pro; color:#4d4d4d;}
+
+.contacta{ width:884px; height:220px; margin-left:30px; margin-top:50px;}
+.contact_product{ width:432px; height:220px; float:left; border-top:1px solid #000099; margin-left:10px; background-color:#FFFFFF;}
+.contact_img{ width:180px; height:50px; margin-top:10px; margin-left:20px;}
+.contact_wen{ margin:20px; line-height:25px; font-family:Microsoft YaHei, LiHei Pro; color:#4d4d4d;}
+
+.contact_adress{ width:481px; height:291px; background:url("guanyu_g.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/guanyu_g.jpg*/ no-repeat; float:left;}
+.contact_adr{ padding:60px;}
+.adress{ line-height:20px; font-family:Microsoft YaHei, LiHei Pro; font-size:18px; color:#FFFFFF; font-weight:bold; text-align:right; padding-top:30px;}
+.adress_zi{ line-height:20px; font-family:Microsoft YaHei, LiHei Pro; color:#FFFFFF; margin-top:30px; text-align:right;}
+
+.contact_ti{ width:380px; height:auto; margin-left:10px; margin-top:40px; float:left;}
+.contact_all{ margin-top:10px; float:left;}
+.contact_name{ width:90px; height:25px; text-align:right; line-height:25px; font-family:Microsoft YaHei, LiHei Pro; float:left;}
+.contact_input{ width:260px; height:25px; float:left; margin-left:10px;}
+.inputa{ width:260px; height:20px; }
+.contact_inputb{ width:260px; height:90px; float:left; margin-left:10px;}
+.inputb{ width:260px; height:90px; }
+.contact_btn{ width:70px; height:25px; background-color:#3266ab; text-align:center; line-height:25px; color:#FFFFFF;}
+.contact_btn a{ color:#FFFFFF;}
+
+/*********************************************招聘中心****************************************/
+.ping{ width:874px; height:auto; margin-left:40px; margin-top:30px; float:left;}
+.ping_tuo{ margin-top:10px;}
+.ping_tu{ width:34px; height:32px; float:left;}
+.ping_zi{ width:auto; height:32px; line-height:32px; font-family:Microsoft YaHei, LiHei Pro; font-size:18px; margin-left:10px; float:left;}
+.ping_nei{ width:874px; margin-left:25px; margin-top:10px; float:left;}
+.ping_btn{ float:left; margin-left:20px; width:256px; height:35px; line-height:35px; background-color:#3166aa; font-family:Microsoft YaHei, LiHei Pro; font-size:16px; color:#FFFFFF;}
+.ping_btn a{ width:236px; height:35px; display:block; color:#FFFFFF; padding-left:20px;}
+.ping_btn a:hover{ background-color:#FFFFFF; border:1px solid #000099; color:#3166aa; display:block;}
+
+.ping_foot{ width:650px; height:30px; clear:both; margin:auto; margin-top:100px; *margin-top:170px; text-align:center;}
+.ping_foot1{ width:650px; height:30px; clear:both; margin:auto; margin-top:610px; *margin-top:170px; text-align:center;}
+.ping_fimg{ float:left; width:0px; height:24px;}
+.ping_fzi{ float:left; line-height:24px; font-family:Microsoft YaHei, LiHei Pro; font-size:16px;}
+
+/*********************************************footer****************************************/
+.footer{ width:1024px; margin:auto; height:40px; background:#3f3f3f; text-align:center; color:#FFFFFF; line-height:40px;}

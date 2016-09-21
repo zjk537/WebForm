@@ -1,0 +1,952 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css.css" tppabs="http://www.zibolan.com/Templates/zbl/css/css.css" />
+    <script src="jquery-1.9.0.js" tppabs="http://www.zibolan.com/Templates/zbl/javascript/jquery-1.9.0.js" type="text/javascript"></script>
+    <script src="jq.js" tppabs="http://www.zibolan.com/Templates/zbl/javascript/jq.js" type="text/javascript"></script>
+    <script type="text/javascript" src="lrtk1.js" tppabs="http://www.zibolan.com/Templates/zbl/javascript/lrtk1.js"></script>
+    <script type="text/javascript" src="lrtk.js" tppabs="http://www.zibolan.com/Templates/zbl/javascript/lrtk.js"></script>
+
+    <script type="text/javascript" src="slides.min.jquery.js" tppabs="http://www.zibolan.com/Templates/zbl/javascript/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="slides.min.jquery.js" tppabs="http://www.lan-kun.com/Templates/zbl/javascript/jquery-1.9.0.js"></script>
+
+    
+    <script type="text/javascript" src="slider.js" tppabs="http://www.zibolan.com/Templates/zbl/javascript/slider.js"></script>
+    <link rel="stylesheet" href="lrtk.css" tppabs="http://www.zibolan.com/Templates/zbl/css/lrtk.css" />
+
+    <link rel="stylesheet" href="global.css" tppabs="http://www.zibolan.com/Templates/zbl/css/global.css" />
+
+    <title>紫博蓝网络科技（北京）股份有限公司- 中国领先的SEM服务品牌</title>
+    <meta name="Keywords" content="紫博蓝 服务 SEM 蓝芯 蓝菓 蓝莓">
+    <meta name="Description" content="紫博蓝自主研发行业领先的SEM优化系统：Analyze·蓝芯；Optimize·蓝菓以及DSP蓝莓营销系统；紫博蓝拥有十年的SEM服务经验，百人SEM专家服务团队，三万家客户的共同选择！">
+    <style>
+        .cen_ul li p {
+            font-size: 12px;
+        }
+    </style>
+    <script type="text/javascript">
+
+
+
+        $(document).ready(function () {
+            $("#navigation li").hover(function () {
+                $(this).find("#menu").show(50);
+            });
+            $("#navigation li").mouseleave(function () {
+                $(this).find("#menu").hide(50);
+            });
+
+
+
+        });
+
+        //$(function(){
+        //      $('#slides').slides({
+        //	});
+
+
+        //});
+
+
+
+    </script>
+    <style>
+        a, img {
+            border: 0;
+        }
+
+        .scrolltitle {
+            height: 24px;
+            font-size: 14px;
+            width: 742px;
+            border-bottom: solid 1px #ddd;
+            margin: 20px auto 15px auto;
+        }
+
+        a.abtn {
+            display: block;
+            height: 130px;
+            width: 24px;
+            overflow: hidden;
+        }
+
+        a.aleft {
+            float: left;
+            cursor: default;
+            background: url("button-next.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-next.jpg*/ no-repeat center;
+        }
+
+        a.agrayleft {
+        }
+
+        a.aright {
+            float: right;
+            background: url("button-prev.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-prev.jpg*/ no-repeat center;
+        }
+
+        a.agrayright {
+            cursor: default;
+        }
+
+        .scrolllist {
+            width: 685px;
+            float: left;
+            height: 130px;
+            margin: 0 auto;
+        }
+
+            .scrolllist .imglist_w {
+                width: 637px;
+                height: 130px;
+                overflow: hidden;
+                float: left;
+                position: relative; /*必要元素*/
+            }
+
+                .scrolllist .imglist_w ul {
+                    width: 20000px;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                }
+
+                .scrolllist .imglist_w li {
+                    width: 138px;
+                    float: left;
+                    padding: 0 10px;
+                }
+
+
+        .focus {
+            width: 893px;
+            height: 316px;
+            position: relative;
+            margin-top: 6px;
+            margin: auto;
+        }
+
+        .f426x240 {
+            width: 893px;
+            height: 316px;
+            overflow: hidden;
+        }
+
+        .rslides {
+            width: 100%;
+            position: relative;
+            list-style: none;
+            padding: 0;
+        }
+
+        .rslides_nav {
+            height: 51px;
+            width: 31px;
+            position: absolute;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            top: 50%;
+            left: 0;
+            opacity: 0.5;
+            text-indent: -9999px;
+            overflow: hidden;
+            text-decoration: none;
+            background: url("arrow-prev.png")/*tpa=http://www.zibolan.com/Templates/zbl/image/arrow-prev.png*/ no-repeat 0 0px;
+            margin-top: -28px;
+        }
+
+            .rslides_nav:active {
+                opacity: 1.0;
+            }
+
+            .rslides_nav.next {
+                left: auto;
+                background-position: -31px -560px;
+                right: 0;
+                background: url("arrow-next.png")/*tpa=http://www.zibolan.com/Templates/zbl/image/arrow-next.png*/ no-repeat 0 0px;
+                margin-top: -28px;
+            }
+
+        .rslides_tabs {
+            margin: 12px auto;
+            clear: both;
+            text-align: center;
+            display: none;
+        }
+    </style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','analytics.js'/*tpa=http://www.google-analytics.com/analytics.js*/,'ga');
+
+  ga('create', 'UA-43287627-1', 'http://www.zibolan.com/zibolan.com');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+    <div id="body">
+        <!---头部--->
+        <!--<iframe width=300 height=300 frameborder=0 scrolling=auto src='/myIndex.asp'></iframe>-->
+        <div id="header">
+<div id="logo"><a href="index.htm" tppabs="http://www.zibolan.com/"><img src="logo.jpg" tppabs="http://www.zibolan.com/Templates/zbl/image/logo.jpg" /></a></div>
+<ul id="navigation">
+
+<li><a href="index.htm" tppabs="http://www.zibolan.com/">网站首页<br/><span>Home</span></a></li>
+ 	 
+	 <li>	
+		<A href="-2_1.html" tppabs="http://www.zibolan.com/list/?2_1.html">客户案例<br><span>Cases</span></A>
+		
+				
+		</li>	
+		
+			 
+	 <li>	
+		<A href="-6.html" tppabs="http://www.zibolan.com/about/?6.html">技术平台<br><span>Technology</span></A>
+		<ul id="menu">
+		 
+                <LI ><A href="-6.html" tppabs="http://www.zibolan.com/about/?6.html">广告优化-蓝菓</A> </LI>
+                
+                <LI ><A href="-7.html" tppabs="http://www.zibolan.com/about/?7.html">数据分析-蓝芯</A> </LI>
+                
+                <LI ><A href="-20.html" tppabs="http://www.zibolan.com/about/?20.html">人群定向-蓝莓</A> </LI>
+                
+                <LI ><A href="-115.html" tppabs="http://www.zibolan.com/about/?115.html">移动互联网</A> </LI>
+                	
+				</ul>
+				
+		</li>	
+		
+			 
+	 <li>	
+		<A href="-9.html" tppabs="http://www.zibolan.com/about/?9.html">服务中心<br><span>Service</span></A>
+		<ul id="menu">
+		 
+                <LI ><A href="-9.html" tppabs="http://www.zibolan.com/about/?9.html">服务理念</A> </LI>
+                
+                <LI ><A href="-118.html" tppabs="http://www.zibolan.com/about/?118.html">产品系列</A> </LI>
+                	
+				</ul>
+				
+		</li>	
+		
+			 
+	 <li>	
+		<A href="-19_1.html" tppabs="http://www.zibolan.com/gbook/">关于我们<br><span>About</span></A>
+	
+		</li>	
+		
+			 
+	 <li>	
+		<A href="-136_1.html" tppabs="http://www.zibolan.com/list/?136_1.html">招聘中心<br><span>Careers</span></A>
+		
+				
+		</li>	
+		
+		
+	</ul>
+
+</div>
+<script type="text/javascript" src="lk_dummy.js" tppabs="http://tracking.zikker.com/lk_dummy.js"></script>
+<!-- Start LK Wise Attribution System Tracker -->
+<script type="text/javascript">
+//<![CDATA[
+var lk_cmds =[];
+lk_cmds.push(['setSiteId', 'XGLMJBT1']);
+lk_cmds.push(['trackPageView']);
+(function() {
+    var _lk = document.createElement('script'); _lk.type = 'text/javascript'; _lk.async = true;
+    _lk.src = 'lk_t_compress.js'/*tpa=http://www.zikker.com/lk_t_compress.js*/;
+    var _lk_s = document.getElementsByTagName('script')[0]; _lk_s.parentNode.insertBefore(_lk, _lk_s);
+}());
+//]]>
+</script>
+<!-- End LK Wise Attribution System Code -->
+<!----头部结束---->
+        <!------ 图片滚动---->
+
+
+
+        <div class="focus">
+            <ul class="rslides f426x240">
+                <li>
+  <a href="-6.html" tppabs="http://www.zibolan.com/about/?6.html">
+      <img src="gun.jpg" tppabs="http://www.zibolan.com/Templates/zbl/image/gun.jpg" width="893" height="316"></a>
+                    {/aspcms:type}</li>
+                <li>
+  <a href="-9.html" tppabs="http://www.zibolan.com/about/?9.html">
+      <img src="gun1.jpg" tppabs="http://www.zibolan.com/Templates/zbl/image/gun1.jpg" width="893" height="316"></a>
+                    </li>
+
+
+            </ul>
+        </div>
+
+
+
+        
+
+        <!-----图片滚动结束----->
+
+        <!----------content-------------->
+        <div id="content">
+            <iframe width="260" height="620" frameborder="0" style="float: left" marginwidth="0" marginheight="0" scrolling="no" src="myIndex.asp.htm" tppabs="http://www.zibolan.com/myIndex.asp"></iframe>
+
+
+            
+
+
+
+            <!--------------------right----------------->
+            <div id="right">
+                <!--技术平台-->
+                <div id="ji_j">
+                    <div class="sou_title_txt">技术平台</div>
+
+                    <div id="cen">
+                        <div class="cen_left_first">
+                            <ul class="cen_ul">
+                                <li style="padding-left: 10px">
+                                    <p>广告优化-蓝菓</p>
+                                    Advertising optimization</li>
+                                <li style="text-align: center">
+                                    <img src="languologo.png" tppabs="http://www.zibolan.com/Templates/zbl/image/languologo.png" /></li>
+                                <li style="padding: 0px 5px 0px 5px;">
+<p>蓝菓广告优化系统是紫博蓝网络科技（北京）股份有限公司花巨资全力打造的全新一代SEM广告优化系统…
+
+                                </li>
+                            </ul>
+                            <div class="more">
+                                
+ 
+  <a href="-6.html" tppabs="http://www.zibolan.com/about/?6.html">
+      <img src="more.png" tppabs="http://www.zibolan.com/Templates/zbl/image/more.png" />more</a>
+                                
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="cen_left">
+                            <ul class="cen_ul">
+                                <li style="padding-left: 10px">
+                                    <p>数据分析-蓝芯</p>
+                                    Data Analysis</li>
+                                <li style="text-align: center">
+                                    <img src="lanxinlogo.png" tppabs="http://www.zibolan.com/Templates/zbl/image/lanxinlogo.png" /></li>
+                                <li style="padding: 0px 5px 0px 5px;">
+<p>网站分析系统在国际市场上分为收费和免费两大阵营。免费阵营中以谷歌公司的google analy…
+</li>
+                            </ul>
+                            <div class="more">
+                                
+ 
+  <a href="-7.html" tppabs="http://www.zibolan.com/about/?7.html">
+      <img src="more.png" tppabs="http://www.zibolan.com/Templates/zbl/image/more.png" />more</a>
+                                
+                            </div>
+                        </div>
+
+
+                        <div class="cen_left">
+                            <ul class="cen_ul">
+                                <li style="padding-left: 10px">
+                                    <p>移动互联网</p>
+                                    Accurate Population On</li>
+                                <li style="text-align: center">
+                                    <img src="shuma.png" tppabs="http://www.zibolan.com/Templates/zbl/image/shuma.png" /></li>
+                                <li style="padding: 0px 5px 0px 5px;">
+<p>紫博蓝移动事业部成立于2011年，通过两年的发展，为近百家客户提供优质的服务，同时逐步形成了以…
+</li>
+                            </ul>
+                            <div class="more">
+                                
+ 
+  <a href="-115.html" tppabs="http://www.zibolan.com/about/?115.html">
+      <img src="more.png" tppabs="http://www.zibolan.com/Templates/zbl/image/more.png" />more</a>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--技术平台结束-->
+
+
+
+
+
+
+                <!--客户安全-->
+                <div id="ke_k">
+                    <div class="sou_title_a">客户案例</div>
+                    <!--图片滚动-->
+                    <div style="width: 100%; height: 130px; margin-top: 36px;">
+
+                        <div id="featureContainer">
+                            <div id="feature1">
+                                <div class="block">
+                                    <div id="botton-scroll1">
+                                        <ul class="featureUL">
+                                            
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-238.html" tppabs="http://www.zibolan.com/content/?238.html"> <img src="201303051739245706.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303051739245706.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-240.html" tppabs="http://www.zibolan.com/content/?240.html"> <img src="201303051820278423.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303051820278423.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-239.html" tppabs="http://www.zibolan.com/content/?239.html"> <img src="201303051735114026.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303051735114026.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-241.html" tppabs="http://www.zibolan.com/content/?241.html"> <img src="201303051823321810.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303051823321810.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-242.html" tppabs="http://www.zibolan.com/content/?242.html"> <img src="201303051826064419.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303051826064419.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-243.html" tppabs="http://www.zibolan.com/content/?243.html"> <img src="201303051836295309.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303051836295309.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-244.html" tppabs="http://www.zibolan.com/content/?244.html"> <img src="201303051834279023.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303051834279023.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-266.html" tppabs="http://www.zibolan.com/content/?266.html"> <img src="201303051841398515.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303051841398515.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                           
+                                        </ul>
+                                    </div>
+                                    <!-- /botton-scroll -->
+                                </div>
+                                <!-- /block -->
+                                <a class="prev" href="javascript:void();">Previous</a><a class="next"
+                                    href="javascript:void();">Next</a>
+                            </div>
+                            <!-- /feature -->
+                             <div id="feature2">
+                               <div class="block">
+                                    <div id="botton-scroll2">
+                                        <ul class="featureUL">
+                                            
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-249.html" tppabs="http://www.zibolan.com/content/?249.html"> <img src="201303061250367042.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061250367042.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-248.html" tppabs="http://www.zibolan.com/content/?248.html"> <img src="201303061251394206.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061251394206.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-247.html" tppabs="http://www.zibolan.com/content/?247.html"> <img src="201303061252342273.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061252342273.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-246.html" tppabs="http://www.zibolan.com/content/?246.html"> <img src="201303061253118449.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061253118449.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-245.html" tppabs="http://www.zibolan.com/content/?245.html"> <img src="201303061253371959.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061253371959.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                           
+                                        </ul>
+                                    </div>
+                                    <!-- /botton-scroll -->
+                                </div>
+                                <!-- /block -->
+                                <a class="prev" href="javascript:void();">Previous</a><a class="next"
+                                    href="javascript:void();">Next</a>
+                            </div>
+
+
+                             <div id="feature3">
+                                <div class="block">
+                                    <div id="botton-scroll3">
+                                        <ul class="featureUL">
+                                            
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-252.html" tppabs="http://www.zibolan.com/content/?252.html"> <img src="201303061254255157.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061254255157.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-251.html" tppabs="http://www.zibolan.com/content/?251.html"> <img src="201303061254443409.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061254443409.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-250.html" tppabs="http://www.zibolan.com/content/?250.html"> <img src="201303061255003798.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061255003798.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-267.html" tppabs="http://www.zibolan.com/content/?267.html"> <img src="20130306125831172.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/20130306125831172.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                           
+                                        </ul>
+                                    </div>
+                                    <!-- /botton-scroll -->
+                                </div>
+                                <!-- /block -->
+                                <a class="prev" href="javascript:void();">Previous</a><a class="next"
+                                    href="javascript:void();">Next</a>
+                            </div>
+
+
+                             <div id="feature4">
+                               <div class="block">
+                                    <div id="botton-scroll4">
+                                        <ul class="featureUL">
+                                            
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-258.html" tppabs="http://www.zibolan.com/content/?258.html"> <img src="201303061307183506.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061307183506.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-259.html" tppabs="http://www.zibolan.com/content/?259.html"> <img src="201303061318228156.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061318228156.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-257.html" tppabs="http://www.zibolan.com/content/?257.html"> <img src="201303061307565709.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061307565709.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-268.html" tppabs="http://www.zibolan.com/content/?268.html"> <img src="201303061302213139.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061302213139.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                           
+                                        </ul>
+                                    </div>
+                                    <!-- /botton-scroll -->
+                                </div>
+                                <!-- /block -->
+                                <a class="prev" href="javascript:void();">Previous</a><a class="next"
+                                    href="javascript:void();">Next</a>
+                            </div>
+
+
+                             <div id="feature5">
+                                <div class="block">
+                                    <div id="botton-scroll5">
+                                        <ul class="featureUL">
+                                            
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-254.html" tppabs="http://www.zibolan.com/content/?254.html"> <img src="201303061602197413.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061602197413.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-255.html" tppabs="http://www.zibolan.com/content/?255.html"> <img src="201303061319362994.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061319362994.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-256.html" tppabs="http://www.zibolan.com/content/?256.html"> <img src="201303061317573656.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061317573656.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-253.html" tppabs="http://www.zibolan.com/content/?253.html"> <img src="201303061319593011.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061319593011.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                           
+                                        </ul>
+                                    </div>
+                                    <!-- /botton-scroll -->
+                                </div>
+                                <!-- /block -->
+                                <a class="prev" href="javascript:void();">Previous</a><a class="next"
+                                    href="javascript:void();">Next</a>
+                            </div>
+
+                             <div id="feature6">
+                               <div class="block">
+                                    <div id="botton-scroll6">
+                                        <ul class="featureUL">
+                                            
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-264.html" tppabs="http://www.zibolan.com/content/?264.html"> <img src="201303061255547473.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061255547473.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-263.html" tppabs="http://www.zibolan.com/content/?263.html"> <img src="201303061301227669.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061301227669.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-265.html" tppabs="http://www.zibolan.com/content/?265.html"> <img src="201303061255366892.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061255366892.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-262.html" tppabs="http://www.zibolan.com/content/?262.html"> <img src="201303061301532186.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061301532186.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-261.html" tppabs="http://www.zibolan.com/content/?261.html"> <img src="201303061303386923.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061303386923.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                            <li class="featureBox">
+                                                <div class="box">
+                                                    <a href="-260.html" tppabs="http://www.zibolan.com/content/?260.html"> <img src="201303061304011557.png" tppabs="http://www.zibolan.com/upLoad/news/month_1303/201303061304011557.png" width="119" height="118" /></a>
+                                                </div>
+                                                <!-- /box -->
+                                            </li>					
+				                    
+                                           
+                                        </ul>
+                                    </div>
+                                    <!-- /botton-scroll -->
+                                </div>
+                                <!-- /block -->
+                                <a class="prev" href="javascript:void();">Previous</a><a class="next"
+                                    href="javascript:void();">Next</a>
+                            </div>
+
+
+                        </div>
+                        <!-- /featureContainer -->
+                        <!-- /wrap -->
+                    </div>
+                    <!-- /featured -->
+
+                    <ul class="nav_tw">
+            <li id="li1" onmouseover="showme(1)" class="curLi" style="color: white">电商行业</li>
+            <li id="li2" onmouseover="showme(2)">教育行业</li>
+            <li id="li3" onmouseover="showme(3)">游戏行业</li>
+            <li id="li4" onmouseover="showme(4)">旅游行业</li>
+<!--             <li id="li5" onmouseover="showme(5)">医疗行业</li> -->
+            <li id="li6" onmouseover="showme(6)">传统品牌行业</li>
+
+        </ul>
+                </div>
+                <!-- /body -->
+          
+            <!-- /wrapper -->
+            <script type="text/javascript">
+                $(function () {
+                    $("#botton-scroll1").jCarouselLite({
+                        btnNext: ".next",
+                        btnPrev: ".prev",
+                        scroll: 4,
+                        visible: 4,
+                    });
+                    $("#botton-scroll2").jCarouselLite({
+                        btnNext: ".next",
+                        btnPrev: ".prev",
+                        scroll: 4,
+                        visible: 4,
+                    });
+
+                    $("#botton-scroll3").jCarouselLite({
+                        btnNext: ".next",
+                        btnPrev: ".prev",
+                        scroll: 4,
+                        visible: 4,
+                    });
+
+                    $("#botton-scroll4").jCarouselLite({
+                        btnNext: ".next",
+                        btnPrev: ".prev",
+                        scroll: 4,
+                        visible: 4,
+                    });
+                    $("#botton-scroll5").jCarouselLite({
+                        btnNext: ".next",
+                        btnPrev: ".prev",
+                        scroll: 4,
+                        visible: 4,
+                    });
+
+                    $("#botton-scroll6").jCarouselLite({
+                        btnNext: ".next",
+                        btnPrev: ".prev",
+                        scroll: 4,
+                        visible: 4,
+                    });
+
+
+                });
+
+
+            </script>
+      
+        <!--图片滚动结束-->
+
+        
+        <script>
+            function showme(obj) {
+                for (var i = 1; i < 7; i++) {
+
+                    $("#li" + i).removeClass("curLi").css("color", "#666");
+                    document.getElementById("feature" + i).style.display = "none";
+                }
+                $("#li"+obj).addClass("curLi").css("color","white");
+                document.getElementById("feature" + obj).style.display = "block";
+            }
+
+            $(function () {
+                for (var i = 1 ; i < 7; i++) { document.getElementById("feature" + i).style.display = "none"; };
+                $("#feature1").css("display", "block");
+                    
+            });
+        </script>
+
+
+
+  
+    <!--客户安全结束-->
+    </div>
+    <!--  right end -->
+    <!--  conten-->
+    </div>
+
+    <!-- foot -->
+  
+    <!--  foot end -->
+<div></div>
+        </div>
+   <script type="text/javascript" src="AspCms_Statistics.asp" tppabs="http://www.zibolan.com/inc/AspCms_Statistics.asp"></script><div id="foot">
+&#169; 2002 - 2015 紫博蓝网络科技（北京）股份有限公司 All Rights Reserved   总机：010-65165988    传真：010-65165900   <a href="javascript:if(confirm('http://www.miibeian.gov.cn/state/outPortal/loginPortal.action  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://www.miibeian.gov.cn/state/outPortal/loginPortal.action'" tppabs="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action" target="_blank"><FONT color=#ffffff>京ICP备12006417号-1</a>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cdiv id='cnzz_stat_icon_1000038696'%3E%3C/div%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000038696' type='text/javascript'%3E%3C/script%3E"));</script>
+<script src="piaofu.js" tppabs="http://www.zibolan.com/js/piaofu.js" language="JavaScript"></script><script src="AspCms_AdvJs.asp-type=pf" tppabs="http://www.zibolan.com/inc/AspCms_AdvJs.asp?type=pf" language="JavaScript"></script>
+</div>
+
+
+
+<script src="AspCms_AdvJs.asp-type=tc" tppabs="http://www.zibolan.com/inc/AspCms_AdvJs.asp?type=tc" language="JavaScript"></script>
+   <div style="color:#eee;font-size:9px;" >友情连接:
+	<a href="javascript:if(confirm('http://www.zishu010.com/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://www.zishu010.com/'" tppabs="http://www.zishu010.com/" target="_blank" style="color:#eee;">紫数大数据</a> 
+	<a href="javascript:if(confirm('http://www.lan-kun.com/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://www.lan-kun.com/'" tppabs="http://www.lan-kun.com/" target="_blank" style="color:#eee;">蓝坤互动</a>
+	<a href="javascript:if(confirm('http://www.zibolan.net/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://www.zibolan.net/'" tppabs="http://www.zibolan.net/" target="_blank" style="color:#eee;">数据营销</a>
+	<a href="javascript:if(confirm('http://www.bluekee.com/  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://www.bluekee.com/'" tppabs="http://www.bluekee.com/" target="_blank" style="color:#eee;">蓝坤服务</a>
+   </div>
+
+
+
+
+<script>
+    var flag=true;
+    var d= new Date();
+    var hour = d.getHours();
+    var day =d.getDate();
+    var dianjinum,  jiankongnum ,zhanshinum ,clicknum ,zhanshicount 
+    var dianjinum1, jiankongnum1,zhanshinum1,clicknum1 ,zhanshicount1   
+    var zsran,djran,jkran,zscount,djcount
+    var count=0;
+    var c =1;
+    setInterval("getVal()",1000);
+    function getVal()
+    {
+
+        if(hour>=8 && hour<20)
+    {
+     zsran = 3+parseInt(Math.random()*8)*50;
+     djran= 3+parseInt(Math.random()*10);
+     jkran= -5+parseInt(Math.random()*15);
+     zscount = 10+ parseInt(Math.random()*30)*50;
+     djcount = 8+ parseInt(Math.random()*16);
+     }
+     else if (hour>=20 || hour<8)
+     {
+         zsran = 3;
+     djran= 3;
+     jkran= -5+parseInt(Math.random()*15);
+     zscount = 13;
+     djcount =5;
+     }
+        count++;
+        var urlstr="";
+        
+        dianjinum =$("#dianjinum").html();
+        jiankongnum=$("#jiankongnum").html();
+        zhanshinum=$("#zhanshinum").html();
+        clicknum=$("#clicknum").html();
+        zhanshicount=$("#zhanshicount").html();
+
+        
+
+        if(isNaN(dianjinum))
+        {
+            
+            dianjinum= 1918626600 +parseInt(Math.random()*10000);
+        }
+
+        if(isNaN(jiankongnum))
+        {
+            jiankongnum= 1378640800 +parseInt(Math.random()*10000);
+        }
+
+        if(isNaN(zhanshinum))
+        {
+            zhanshinum= 106379824700 +parseInt(Math.random()*1000000);
+            zhanshinum1=zhanshinum;
+        }
+
+        if(isNaN(clicknum))
+        {
+            clicknum= 6327841+parseInt(Math.random()*1000000);
+        }
+
+        if(isNaN(zhanshicount))
+        {
+            zhanshicount= 877498987 +parseInt(Math.random()*10000);
+            zhanshicount1=zhanshicount;
+        }
+
+        
+        
+
+        num(zhanshinum,zhanshicount);
+        
+        
+        if(count==60)
+        {   
+            num2(dianjinum,jiankongnum,clicknum);
+            urlstr="getval.asp?dianjinum="+dianjinum1+"&jiankongnum="+jiankongnum1+"&zhanshinum="+zhanshinum1+"&clicknum="+clicknum1+"&zhanshicount="+zhanshicount1;
+            count=0;
+        }
+        else
+        {
+            urlstr="getval.asp?dianjinum="+dianjinum+"&jiankongnum="+jiankongnum+"&zhanshinum="+zhanshinum1+"&clicknum="+clicknum+"&zhanshicount="+zhanshicount1;
+
+        }
+        if(flag)
+        {
+         
+        flag=false;
+        $.ajax({
+        post:'GET',
+        url:urlstr,
+        success:function(obj)
+            {
+                var mess =obj.split('|');
+                
+                $("#dianjinum").html(mess[0]);
+                $("#jiankongnum").html(mess[1]);
+                $("#zhanshinum").html(mess[2]);
+                $("#clicknum").html(mess[3]);
+                $("#zhanshicount").html(mess[4]);
+                
+            }
+        });
+        flag=true;
+        } 
+    }
+
+    
+    function num(zhanshinum,zhanshicount)
+    {
+        
+        zhanshinum1=parseInt(zhanshinum)+zsran
+        
+        zhanshicount1=parseInt(zhanshicount)+zscount
+    }
+    function num2(dianjinum,jiankongnum,clicknum)
+    {
+        
+        
+
+        dianjinum1=parseInt(dianjinum)+djran
+        jiankongnum1=parseInt(jiankongnum)+jkran
+        clicknum1=parseInt(clicknum)+djcount
+    }
+    
+</script>
+
+</body>
+</html>

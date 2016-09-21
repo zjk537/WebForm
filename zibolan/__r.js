@@ -1,0 +1,1 @@
+(function(){ this.src = "__dmp.gif"/*tpa=http://tracking.zikker.com/__dmp.gif*/ ; this.maps = { "MZ":{"key":"MZ","src":"http://c.x.cn.miaozhen.com/cm.gif?dspid=11168","img":new Image(1,1)}};var im=new Image(1,1);im.src=this.src+"?"+encodeURIComponent(document.title+"LK24LK"+(new Date()).getTime());for(k in this.maps){this.maps[k].img.src=this.maps[k].src;}})();

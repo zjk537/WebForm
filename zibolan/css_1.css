@@ -1,0 +1,160 @@
+/* CSS Document */
+body{ margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif 宋体; font-size:12px}
+a{ text-decoration:none; color:#414141; cursor:pointer;}
+ul{ margin:0px; padding:0px;}
+li{ list-style:none;}
+img{border:0px;}
+#body{ width:955px; height:auto; margin:auto;}
+#header{width:955px; height:150px; margin:auto;}
+
+/***************************** 头部**************************************/
+#logo{width:206px; height:75px; float:left; margin-left:20px; margin-top:27px;}
+#navigation{ float:left; margin-top:50px; margin-left:35px;  height:40px; padding-left:21px; padding-right:15px; border-bottom:1px solid #3166aa;}
+#navigation li{ width:80px; float:left; margin-left:10px; position:relative}
+#navigation li a{ display:block; width:auto; height:38px; font-size:15px; color:#161616; font-family:Microsoft YaHei, LiHei Pro}
+#navigation li a:hover { border-bottom:5px solid #3166aa;}
+#navigation li a span{font-size:12px; color:#bbbbbb;}
+
+#menu{ position:absolute; left:20px; top:40px; float:left; display:none; width:600px}
+#menu li{ width:80px; float:left; height:25px; line-height:25px;}
+#menu li:first-child{ background:url("menu_list_bg.png")/*tpa=http://www.zibolan.com/Templates/zbl/image/menu_list_bg.png*/ no-repeat top left; padding-left:12px;}
+#menu li a{color:#808080; font-size:12px;}
+#menu li a:hover{color:#4d7bb6; border-bottom:0px;}
+/***********************************头部结束**************************************/
+
+/****************************************banner********************************/
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden; position:relative;}
+.clearfix {zoom:1;}
+.wrapper {width:100%; margin:0 auto;}
+.shuoming {margin-top:20px; border:1px solid #ccc; padding-bottom:10px;}
+.shuoming dt {height:30px; line-height:30px; font-weight:bold; text-indent:10px;}
+.shuoming dd {line-height:20px; padding:5px 20px;}
+
+
+#focus {width:1024px; height:316px; margin:auto; overflow:hidden; position:relative;}
+#focus ul {height:316px; width:1024px; position:absolute;}
+#focus ul li {float:left; height:316px; overflow:hidden; position:relative; background:#000;}
+#focus ul li div {position:absolute; overflow:hidden;}
+#focus .btn {position:absolute; width:780px; height:10px; padding:5px 10px; right:0; bottom:0; text-align:right;}
+#focus .preNext {width:35px; height:100px; position:absolute; top:90px; background:url("sprite.png")/*tpa=http://www.zibolan.com/Templates/zbl/image/sprite.png*/ no-repeat 0 0; cursor:pointer;}
+#focus .pre {left:0;}
+#focus .next {right:0; background-position:right top;}
+
+/********************************************banner end****************************/
+
+
+
+/************************************************content**************************************/
+#content{ clear:both; width:100%; height:620px;}
+
+#sou_s{ width:260px; height:310px; background:url("index_bg_03.gif")/*tpa=http://www.zibolan.com/Templates/zbl/image/index_bg_03.gif*/ no-repeat; float:left; margin-top:20px;}
+.sou_title{ color:#FFFFFF; padding-left:42px; margin-top:5px; font-size:16px; font-family:Microsoft YaHei, LiHei Pro;}
+.sou_title_a{color:#FFFFFF; padding-left:50px; margin-top:5px; font-size:16px; font-family:Microsoft YaHei, LiHei Pro;}
+.sou_title_txt{ color:#FFFFFF; padding-left:51px; margin-top:5px; font-size:16px; font-family:Microsoft YaHei, LiHei Pro;}
+#cen{width:669px; height:246px; background:url("bg_bg.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/bg_bg.jpg*/ no-repeat; margin:18px 0px 0px 10px;}
+.cen_left_first{ width:216px; height:230px; color:#8f8f8f; font-family:Microsoft YaHei, LiHei Pro; background:url("bg_bg_y.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/bg_bg_y.jpg*/ repeat-y; float:left; margin:7px 0px 0px 8px;}
+.cen_left_first:hover{ background:#ffffff; color:#000000;}
+.cen_ul li{ text-align:left; margin-top:15px;}
+.cen_ul li p{ font-size:15px; margin-bottom:0px;}
+.more{ text-align:right; padding-right:5px; margin-top:10px;}
+.more a{ color:#3266ab;}
+.more a img{vertical-align:middle;}
+
+.cen_left{ width:216px; height:230px; color:#8f8f8f; font-family:Microsoft YaHei, LiHei Pro; background:url("bg_bg_y.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/bg_bg_y.jpg*/ repeat-y; float:left; margin:7px 0px 0px 3px;}
+.cen_left:hover{ background:#ffffff;  color:#000000;}
+
+.time{ color:#808080; text-align:right; font-size:12px; padding-right:20px;}
+#lia{ margin-top:25px; width:255px;}
+#lia tr td{ list-style:none; margin-top:15px; *margin-top:10px; margin-left:17px; padding-left:10px; width:100%; font-family:Microsoft YaHei, LiHei Pro; height:65px; *height:60px; border-bottom:1px solid #e6e6e6;}
+.img_left{ float:left;}
+.lia_ri{ width:145px; margin-top:5px; margin-left:5px; float:left; color:#000000; font-size:16px; height:50px;}
+.lia_ri p{ margin-top:0px; color:#c1282d; font-weight:bold; font-size:22px}
+
+
+#ji_j{ width:688px; height:310px; float:left; background:url("index_bg_05.gif")/*tpa=http://www.zibolan.com/Templates/zbl/image/index_bg_05.gif*/ no-repeat; margin-top:20px; margin-left:5px;}
+
+#ren_r{ width:260px; height:285px; float:left; background:url("index_bg_07.gif")/*tpa=http://www.zibolan.com/Templates/zbl/image/index_bg_07.gif*/ no-repeat; margin-top:2px;}
+
+/***********************************pic gun*************************************/
+.carousel-box {
+	position: relative;
+	overflow: hidden;
+}
+
+.carousel-box .inner {
+	padding: 0 !important;
+	overflow: hidden;
+}
+.carousel{ margin:0 auto; height:130px;}
+.carousel-box ul {
+	height: 120px;
+	overflow: hidden;
+}
+.wrapper-1{ height:130px;}
+
+	.carousel-box ul li {
+		width: 1000px;
+		overflow: hidden;
+		margin-left:45px;
+		height:130px;
+
+	}
+.carousel-box ul li a{
+  display:block;
+  width:120px;
+  height:120px;
+  background:#FFFFFF;
+  float:left;
+  margin-left:15px;
+  padding:5px;
+   }
+	
+		
+.carousel-box ul li img.extra {
+			margin: 0 0 10px 0;
+		}
+
+.carousel-box button.prev {
+	background: url("button-next.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-next.jpg*/ no-repeat 0% 0%;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	border: none;
+	position: absolute;
+	top: 41px;
+	left:20px;
+	z-index: 100;
+	cursor: pointer;
+	outline: none;
+}
+
+
+
+.carousel-box button.next {
+	background:url("button-prev.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-prev.jpg*/ no-repeat 0% 0%;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	border: none;
+	position: absolute;
+	top: 41px;
+	right:18px;
+	z-index: 100;
+	cursor: pointer;
+	outline: none;
+}
+
+.inner{ width:100%; height:130px;	overflow: hidden;}
+
+/********************************pic end*****************************************/
+.nav_tw{ margin:7px 0px 0px 150px; *margin-top:5px;}
+.nav_tw li{ float:left; width:71px; margin-left:10px;}
+.nav_tw li a{ display:block; float:left; width:71px; height:24px; color:#666666; line-height:24px; text-align:center; font-family:Microsoft YaHei, LiHei Pro; font-size:14px;}
+.nav_tw li a:hover{background:url("nav_bg.png")/*tpa=http://www.zibolan.com/Templates/zbl/image/nav_bg.png*/ no-repeat; color:#FFFFFF;}
+
+
+#ke_k{width:688px; height:285px; float:left; background:url("index_bg_08.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/index_bg_08.jpg*/ no-repeat; margin-top:2px; margin-left:5px;}
+
+#foot{ height:40px; background:#3f3f3f; text-align:center; color:#FFFFFF; line-height:40px;  margin:auto; margin-top:10px;}
+
+/************************************************content end************************************/

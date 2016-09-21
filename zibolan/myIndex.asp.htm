@@ -1,0 +1,164 @@
+﻿<html>
+<link rel='stylesheet' href="css_1.css" tppabs="http://www.zibolan.com/Templates/zbl/css/css_1.css" />
+<script src="jquery-1.9.0.js" tppabs="http://www.zibolan.com/Templates/zbl/javascript/jquery-1.9.0.js" type='text/javascript'></script>
+<div id='left'>
+    <div id='sou_s'>
+        <div class='sou_title'>搜索广告</div>
+        <table id='lia'>
+            <tr>
+                <td><img src="img_le_03.jpg" tppabs="http://www.zibolan.com/Templates/zbl/image/img_le_03.jpg" class='img_left' />
+                    <div class='lia_ri'>点击数量
+                        <p id='dianjinum' name='dianjinum'>1918670695</p>
+                    </div>
+                    <td>
+            </tr>
+            <tr>
+                <td><img src="img_le_06.jpg" tppabs="http://www.zibolan.com/Templates/zbl/image/img_le_06.jpg" class='img_left' />
+                    <div class='lia_ri'>监控词量
+                        <p id='jiankongnum' name='jiankongnum'>1378653947</p>
+                    </div>
+                    <td>
+            </tr>
+            <tr>
+                <td><img src="img_le_08.jpg" tppabs="http://www.zibolan.com/Templates/zbl/image/img_le_08.jpg" class='img_left' />
+                    <div class='lia_ri'>展示数量
+                        <p id='zhanshinum' name='zhanshinum'>106433585198</p>
+                    </div>
+                    <td>
+            </tr>
+        </table>
+        <div class='time'>自2006年6月1日起</div>
+    </div>
+    <div id='ren_r'>
+        <div class='sou_title_a'>人群精准定向</div>
+        <table id='lia'>
+            <tr>
+                <td><img src="img_le_10.jpg" tppabs="http://www.zibolan.com/Templates/zbl/image/img_le_10.jpg" class='img_left' />
+                    <div class='lia_ri'>点击次数
+                        <p id='clicknum' name='clicknum'>6446897</p>
+                    </div>
+                    <td>
+            </tr>
+            <tr>
+                <td><img src="img_le_12.jpg" tppabs="http://www.zibolan.com/Templates/zbl/image/img_le_12.jpg" class='img_left' />
+                    <div class='lia_ri'>展示次数
+                        <p id='zhanshicount' name='zhanshicount'>1095432294</p>
+                    </div>
+                    <td>
+            </tr>
+        </table>
+        <div class='time' style='margin-top:10px;'>自2011年10月15日起</div>
+    </div>
+</div>
+<script>
+var flag = true;
+var d = new Date();
+var hour = d.getHours();
+var day = d.getDate();
+var dianjinum, jiankongnum, zhanshinum, clicknum, zhanshicount
+var dianjinum1, jiankongnum1, zhanshinum1, clicknum1, zhanshicount1
+var zsran, djran, jkran, zscount, djcount
+var count = 0;
+var c = 1;
+setInterval("getVal()", 1000);
+
+function getVal() {
+
+    if (hour >= 8 && hour < 20) {
+        zsran = 3 + parseInt(Math.random() * 8) * 50;
+        djran = 3 + parseInt(Math.random() * 10);
+        jkran = -5 + parseInt(Math.random() * 15);
+        zscount = 10 + parseInt(Math.random() * 30) * 50;
+        djcount = 8 + parseInt(Math.random() * 16);
+    } else if (hour >= 20 || hour < 8) {
+        zsran = 3;
+        djran = 3;
+        jkran = -5 + parseInt(Math.random() * 15);
+        zscount = 13;
+        djcount = 5;
+    }
+    count++;
+    var urlstr = "";
+
+    dianjinum = $("#dianjinum").html();
+    jiankongnum = $("#jiankongnum").html();
+    zhanshinum = $("#zhanshinum").html();
+    clicknum = $("#clicknum").html();
+    zhanshicount = $("#zhanshicount").html();
+
+
+    if (isNaN(dianjinum)) {
+
+        dianjinum = 1918626600 + parseInt(Math.random() * 10000);
+    }
+
+    if (isNaN(jiankongnum)) {
+        jiankongnum = 1378640800 + parseInt(Math.random() * 10000);
+    }
+
+    if (isNaN(zhanshinum)) {
+        zhanshinum = 106379824700 + parseInt(Math.random() * 1000000);
+        zhanshinum1 = zhanshinum;
+    }
+
+    if (isNaN(clicknum)) {
+        clicknum = 6327841 + parseInt(Math.random() * 1000000);
+    }
+
+    if (isNaN(zhanshicount)) {
+        zhanshicount = 877498987 + parseInt(Math.random() * 10000);
+        zhanshicount1 = zhanshicount;
+    }
+
+
+
+
+    num(zhanshinum, zhanshicount);
+
+
+    if (count == 60) {
+        num2(dianjinum, jiankongnum, clicknum);
+        urlstr = "getval.asp?dianjinum=" + dianjinum1 + "&jiankongnum=" + jiankongnum1 + "&zhanshinum=" + zhanshinum1 + "&clicknum=" + clicknum1 + "&zhanshicount=" + zhanshicount1;
+        count = 0;
+    } else {
+        urlstr = "getval.asp?dianjinum=" + dianjinum + "&jiankongnum=" + jiankongnum + "&zhanshinum=" + zhanshinum1 + "&clicknum=" + clicknum + "&zhanshicount=" + zhanshicount1;
+
+    }
+    if (flag) {
+
+        flag = false;
+        $.ajax({
+            post: 'GET',
+            url: urlstr,
+            success: function(obj) {
+                var mess = obj.split('|');
+
+                $("#dianjinum").html(mess[0]);
+                $("#jiankongnum").html(mess[1]);
+                $("#zhanshinum").html(mess[2]);
+                $("#clicknum").html(mess[3]);
+                $("#zhanshicount").html(mess[4]);
+
+            }
+        });
+        flag = true;
+    }
+}
+
+
+function num(zhanshinum, zhanshicount) {
+
+    zhanshinum1 = parseInt(zhanshinum) + zsran
+
+    zhanshicount1 = parseInt(zhanshicount) + zscount
+}
+
+function num2(dianjinum, jiankongnum, clicknum) {
+
+
+
+    dianjinum1 = parseInt(dianjinum) + djran
+    jiankongnum1 = parseInt(jiankongnum) + jkran
+    clicknum1 = parseInt(clicknum) + djcount
+}
+</script>

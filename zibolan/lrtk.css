@@ -1,0 +1,192 @@
+
+* A {POSITION: relative}
+
+/*定义文字样式*/
+A {FONT-SIZE: 14px; COLOR: #000;CURSOR: pointer}
+A:link {COLOR: #333; TEXT-DECORATION: none;OUTLINE-STYLE: none}
+A:visited {COLOR: #333; TEXT-DECORATION: none;}
+A:hover {COLOR: #333; TEXT-DECORATION:none;}
+A:active {COLOR: #333; TEXT-DECORATION: none;OUTLINE-STYLE: none}
+
+
+A IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+#featureContainer {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; MARGIN: 0px auto; WIDTH: 564px; FONT-SIZE: 80%; BORDER-TOP: #999 0px dotted;
+	BORDER-RIGHT: #999 0px dotted
+}
+#wrap {
+	OVERFLOW: hidden
+}
+#load {
+	BACKGROUND-IMAGE: url("loader32x32.gif")/*tpa=http://www.zibolan.com/Templates/zbl/css/images/loader32x32.gif*/; BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; MARGIN: 0px auto; WIDTH: 923px; DISPLAY: none; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 50%; HEIGHT: 100px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+
+/*feature1*/
+#feature1 {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: relative; BORDER-LEFT: #999 0px dotted; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#feature1 .button {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: absolute; BORDER-LEFT: #999 0px dotted; WIDTH: 840px; BORDER-TOP: #999 0px dotted; TOP: 72px; BORDER-RIGHT: #999 0px dotted; LEFT: 0px
+}
+#feature1 .prev {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-next.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-next.jpg*/ no-repeat ; FLOAT: left; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature1 .next {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-prev.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-prev.jpg*/ no-repeat ; FLOAT: right; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature1 .prev:hover {
+	BACKGROUND-POSITION: center bottom
+}
+#feature1 .next:hover {
+	BACKGROUND-POSITION: center bottom
+}
+
+/*feature2*/
+
+#feature2 {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: relative; BORDER-LEFT: #999 0px dotted; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#feature2 .button {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: absolute; BORDER-LEFT: #999 0px dotted; WIDTH: 840px; BORDER-TOP: #999 0px dotted; TOP: 72px; BORDER-RIGHT: #999 0px dotted; LEFT: 0px
+}
+#feature2 .prev {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-next.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-next.jpg*/ no-repeat ; FLOAT: left; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature2 .next {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-prev.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-prev.jpg*/ no-repeat ; FLOAT: right; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature2 .prev:hover {
+	BACKGROUND-POSITION: center bottom
+}
+#feature2 .next:hover {
+	BACKGROUND-POSITION: center bottom
+}
+
+/*feature3*/
+#feature3 {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: relative; BORDER-LEFT: #999 0px dotted; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#feature3 .button {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: absolute; BORDER-LEFT: #999 0px dotted; WIDTH: 840px; BORDER-TOP: #999 0px dotted; TOP: 72px; BORDER-RIGHT: #999 0px dotted; LEFT: 0px
+}
+#feature3 .prev {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-next.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-next.jpg*/ no-repeat ; FLOAT: left; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature3 .next {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-prev.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-prev.jpg*/ no-repeat ; FLOAT: right; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature3 .prev:hover {
+	BACKGROUND-POSITION: center bottom
+}
+#feature3 .next:hover {
+	BACKGROUND-POSITION: center bottom
+}
+
+/*feature4*/
+#feature4 {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: relative; BORDER-LEFT: #999 0px dotted; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#feature4 .button {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: absolute; BORDER-LEFT: #999 0px dotted; WIDTH: 840px; BORDER-TOP: #999 0px dotted; TOP: 72px; BORDER-RIGHT: #999 0px dotted; LEFT: 0px
+}
+#feature4 .prev {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-next.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-next.jpg*/ no-repeat ; FLOAT: left; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature4 .next {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-prev.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-prev.jpg*/ no-repeat ; FLOAT: right; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature4 .prev:hover {
+	BACKGROUND-POSITION: center bottom
+}
+#feature4 .next:hover {
+	BACKGROUND-POSITION: center bottom
+}
+
+/*feature5*/
+#feature5 {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: relative; BORDER-LEFT: #999 0px dotted; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#feature5 .button {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: absolute; BORDER-LEFT: #999 0px dotted; WIDTH: 840px; BORDER-TOP: #999 0px dotted; TOP: 72px; BORDER-RIGHT: #999 0px dotted; LEFT: 0px
+}
+#feature5 .prev {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-next.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-next.jpg*/ no-repeat ; FLOAT: left; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature5 .next {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-prev.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-prev.jpg*/ no-repeat ; FLOAT: right; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature5 .prev:hover {
+	BACKGROUND-POSITION: center bottom
+}
+#feature5 .next:hover {
+	BACKGROUND-POSITION: center bottom
+}
+
+/*feature6*/
+#feature6 {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: relative; BORDER-LEFT: #999 0px dotted; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#feature6 .button {
+	BORDER-BOTTOM: #999 0px dotted; POSITION: absolute; BORDER-LEFT: #999 0px dotted; WIDTH: 840px; BORDER-TOP: #999 0px dotted; TOP: 72px; BORDER-RIGHT: #999 0px dotted; LEFT: 0px
+}
+#feature6 .prev {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-next.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-next.jpg*/ no-repeat ; FLOAT: left; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature6 .next {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 24px; DISPLAY: block; BACKGROUND: url("button-prev.jpg")/*tpa=http://www.zibolan.com/Templates/zbl/image/button-prev.jpg*/ no-repeat ; FLOAT: right; HEIGHT: 25px; BORDER-TOP: #999 0px dotted; TOP: -75px; BORDER-RIGHT: #999 0px dotted
+}
+#feature6 .prev:hover {
+	BACKGROUND-POSITION: center bottom
+}
+#feature6 .next:hover {
+	BACKGROUND-POSITION: center bottom
+}
+
+
+
+
+.featureUL {
+	BORDER-BOTTOM: #000 0px dotted; POSITION: relative; BORDER-LEFT: #000 0px dotted; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 2800px; PADDING-RIGHT: 0px; FLOAT: left; BORDER-TOP: #000 0px dotted; BORDER-RIGHT: #000 0px dotted; PADDING-TOP: 0px; LEFT: 0px
+}
+.featureBox {
+	 WIDTH: 119px; FLOAT: left; HEIGHT: 118px; OVERFLOW: hidden; margin:0 5px;
+}
+#botton-scroll1 {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; MARGIN: 0px auto; WIDTH: 840px; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+
+#botton-scroll2 {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; MARGIN: 0px auto; WIDTH: 840px; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+
+#botton-scroll3 {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; MARGIN: 0px auto; WIDTH: 840px; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#botton-scroll4 {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; MARGIN: 0px auto; WIDTH: 840px; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#botton-scroll5 {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; MARGIN: 0px auto; WIDTH: 840px; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#botton-scroll6 {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; MARGIN: 0px auto; WIDTH: 840px; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+
+
+
+.block {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; POSITION: relative; BORDER-LEFT: #999 0px dotted;  WIDTH: 564px; PADDING-RIGHT: 0px; HEIGHT: 118px; FONT-SIZE: 70%;
+	OVERFLOW: hidden; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted; padding-left:24px;
+}
+.block .box {
+	BORDER-BOTTOM: #d8d8d8 0px solid; BORDER-LEFT: #d8d8d8 0px solid; WIDTH: 119px; FLOAT: left; HEIGHT: 118px;
+	BORDER-TOP: #d8d8d8 0px solid; BORDER-RIGHT: #d8d8d8 0px solid; 
+}
+.block .box .feature-title {
+	FONT-SIZE: 140%; FONT-WEIGHT: normal
+}
+.block .box .feature-thumb {
+	WIDTH: 240px; MARGIN-BOTTOM: 5px; FLOAT: left; HEIGHT: 150px
+}
